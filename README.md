@@ -4,7 +4,7 @@ Install and configure erlang on your systems.
 
 |GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
 |------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-erlang/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-erlang/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-erlang/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-erlang)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/erlang)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/erlang)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-erlang.svg)](https://github.com/buluma/ansible-role-erlang/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-erlang.svg)](https://github.com/buluma/ansible-role-erlang/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-erlang.svg)](https://github.com/buluma/ansible-role-erlang/pulls/)|
+|[![github](https://github.com/buluma/ansible-role-erlang/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-erlang/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-erlang/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-erlang)|[![quality](https://img.shields.io/ansible/quality/59572)](https://galaxy.ansible.com/buluma/erlang)|[![downloads](https://img.shields.io/ansible/role/d/59572)](https://galaxy.ansible.com/buluma/erlang)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-erlang.svg)](https://github.com/buluma/ansible-role-erlang/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-erlang.svg)](https://github.com/buluma/ansible-role-erlang/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-erlang.svg)](https://github.com/buluma/ansible-role-erlang/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -15,7 +15,7 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
   hosts: all
   tasks:
     - name: "Include buluma.erlang"
-      include_role:
+      ansible.builtin.include_role:
         name: "buluma.erlang"
 ```
 
