@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Install and configure erlang on your systems.
+  homepage: https://buluma.github.io/
+  topics: erlang, ansible, molecule, tox, playbook, hacktoberfest
