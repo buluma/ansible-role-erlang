@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-erlang/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.6.27...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#8](https://github.com/buluma/ansible-role-erlang/issues/8)
+
 ## [0.6.27](https://github.com/buluma/ansible-role-erlang/tree/0.6.27) (2022-06-26)
 
 [Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.6.26...0.6.27)
