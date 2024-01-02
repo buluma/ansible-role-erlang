@@ -1,9 +1,13 @@
 ---
 # tasks file for erlang
-- include: debian.yml
+- name: Import debian.yml
+  ansible.builtin.import_tasks:
+    file: assert.yml
   when: ansible_os_family == 'Debian'
   tags: package
 
-- include: redhat.yml
+- name: Import redhat.yml
+  ansible.builtin.import_tasks:
+    file: redhat.yml
   when: ansible_os_family == 'RedHat'
   tags: package

@@ -1,19 +1,19 @@
 ---
 # tasks file for erlang
-- name: Debian | repository - add the GPG key
+- name: debian | Repository - add the GPG key
   ansible.builtin.apt_key:
     url: '{{ erlang_ppa_key }}'
     id: '{{ erlang_ppa_key_id }}'
     state: present
   when: erlang_ppa_key != None
 
-- name: Debian | add repository to install Erlang from
+- name: debian | Add repository to install Erlang from
   ansible.builtin.apt_repository:
     repo: '{{ erlang_ppa_repo }}'
     update_cache: yes
   when: erlang_ppa_repo != None
 
-- name: Debian | install packages
+- name: debian | Install packages
   ansible.builtin.apt:
     pkg: '{{ item }}'
     state: installed
