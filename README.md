@@ -63,7 +63,6 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |---------|----|
 |[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|7|
 |[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|all|
-|[Archlinux](https://hub.docker.com/repository/docker/buluma/archlinux/general)|all|
 |[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|all|
 |[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|all|
 

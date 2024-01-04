@@ -51,8 +51,6 @@ jobs:
             tag: "latest"
           - image: "fedora-systemd"
             tag: "rawhide"
-          - image: "archlinux"
-            tag: "latest"
           - image: "docker-ubuntu-systemd"
             tag: "latest"
           - image: "docker-ubuntu-systemd"
