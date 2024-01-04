@@ -2,7 +2,7 @@
 # tasks file for erlang
 - name: Import debian.yml
   ansible.builtin.import_tasks:
-    file: assert.yml
+    file: debian.yml
   when: ansible_os_family == 'Debian'
   tags: package
 

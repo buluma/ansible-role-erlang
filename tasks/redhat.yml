@@ -1,13 +1,13 @@
 ---
-# tasks file for erlang RedHat
+# tasks file for erlang redhat
 
-- name: redHat | Repository - add the GPG key
+- name: redhat | Repository - add the GPG key
   ansible.builtin.rpm_key:
     state: present
     key: '{{ erlang_rpm_key }}'
   when: erlang_rpm_key != None
 
-- name: redHat | Add Erlang repository
+- name: redhat | Add Erlang repository
   ansible.builtin.template:
     src: erlang-solutions.j2
     dest: '{{ erlang_yum_repo_path }}/erlang-solutions.repo'
@@ -15,7 +15,7 @@
     group: root
     mode: 0644
 
-- name: redHat | Install packages
+- name: redhat | Install packages
   ansible.builtin.yum:
     name: '{{ item }}'
     state: installed
