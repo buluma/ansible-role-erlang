@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.6.27...HEAD)
 
+**Implemented enhancements:**
+
+- Testing all distros [\#9](https://github.com/buluma/ansible-role-erlang/pull/9) ([buluma](https://github.com/buluma))
+
 **Closed issues:**
 
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#8](https://github.com/buluma/ansible-role-erlang/issues/8)
