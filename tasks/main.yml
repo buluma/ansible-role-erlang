@@ -1,13 +1,18 @@
 ---
 # tasks file for erlang
-- name: Import debian.yml
-  ansible.builtin.import_tasks:
-    file: debian.yml
-  when: ansible_os_family == 'Debian'
-  tags: package
+# - name: Import debian.yml
+#   ansible.builtin.import_tasks:
+#     file: debian.yml
+#   when: ansible_os_family == 'Debian'
+#   tags: package
+#
+# - name: Import redhat.yml
+#   ansible.builtin.import_tasks:
+#     file: redhat.yml
+#   when: ansible_os_family == 'RedHat'
+#   tags: package
 
-- name: Import redhat.yml
-  ansible.builtin.import_tasks:
-    file: redhat.yml
-  when: ansible_os_family == 'RedHat'
-  tags: package
+- name: Install erlang
+  ansible.builtin.package:
+    name: erlang
+    state: present
