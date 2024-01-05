@@ -7,6 +7,7 @@
 **Merged pull requests:**
 
 - Bump actions/checkout from 3 to 4 [\#11](https://github.com/buluma/ansible-role-erlang/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#10](https://github.com/buluma/ansible-role-erlang/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.7.0](https://github.com/buluma/ansible-role-erlang/tree/0.7.0) (2024-01-04)
 
