@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-erlang/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.6.27...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.7.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 3 to 4 [\#11](https://github.com/buluma/ansible-role-erlang/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [0.7.0](https://github.com/buluma/ansible-role-erlang/tree/0.7.0) (2024-01-04)
+
+[Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.6.27...0.7.0)
 
 **Implemented enhancements:**
 
