@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-erlang/tree/HEAD)
+## [0.8.0](https://github.com/buluma/ansible-role-erlang/tree/0.8.0) (2024-01-05)
 
-[Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.7.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.7.0...0.8.0)
 
 **Merged pull requests:**
 
