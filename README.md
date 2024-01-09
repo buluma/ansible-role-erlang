@@ -35,25 +35,6 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
 
-## [Role Variables](#role-variables)
-
-The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-erlang/blob/master/defaults/main.yml):
-
-```yaml
----
-# defaults file for erlang
-erlang_ppa_repo: 'deb http://packages.erlang-solutions.com/{{ ansible_distribution | lower }} {{ ansible_distribution_release | lower }} contrib'
-erlang_ppa_key: 'http://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc'
-erlang_ppa_key_id: 'A14F4FCA'
-erlang_rpm_key: 'http://packages.erlang-solutions.com/rpm/erlang_solutions.asc'
-erlang_yum_repo_path: '/etc/yum.repos.d'
-erlang_yum_repo_name: 'Centos $releasever - $basearch - Erlang Solutions'
-erlang_yum_repo_baseurl: 'http://packages.erlang-solutions.com/rpm/centos/$releasever/$basearch'
-erlang_yum_repo_gpgcheck: '1'
-erlang_yum_repo_enabled: '1'
-erlang_packages:
-  - erlang
-```
 
 ## [Requirements](#requirements)
 
