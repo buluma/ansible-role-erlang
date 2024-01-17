@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-erlang/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.8.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#13](https://github.com/buluma/ansible-role-erlang/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.8.0](https://github.com/buluma/ansible-role-erlang/tree/0.8.0) (2024-01-05)
 
 [Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.7.0...0.8.0)
