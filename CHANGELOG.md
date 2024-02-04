@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-erlang/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.9.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump release-drafter/release-drafter from 5 to 6 [\#15](https://github.com/buluma/ansible-role-erlang/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.9.0](https://github.com/buluma/ansible-role-erlang/tree/0.9.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.8.0...0.9.0)
