@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump release-drafter/release-drafter from 5 to 6 [\#16](https://github.com/buluma/ansible-role-erlang/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#15](https://github.com/buluma/ansible-role-erlang/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.9.0](https://github.com/buluma/ansible-role-erlang/tree/0.9.0) (2024-01-20)
