@@ -4,6 +4,11 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.9.0...HEAD)
 
+**Closed issues:**
+
+- Update action [\#7](https://github.com/buluma/ansible-role-erlang/issues/7)
+- rebuild action [\#6](https://github.com/buluma/ansible-role-erlang/issues/6)
+
 **Merged pull requests:**
 
 - Bump dependabot/fetch-metadata from 1 to 2 [\#20](https://github.com/buluma/ansible-role-erlang/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
