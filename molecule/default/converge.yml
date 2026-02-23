@@ -1,7 +1,7 @@
 ---
-  - hosts: all
-    name: Converge
-    tasks:
-      - ansible.builtin.include_role:
-          name: buluma.erlang
-        name: Include buluma.erlang
+- hosts: all
+  name: Converge
+  tasks:
+  - ansible.builtin.include_role:
+      name: buluma.erlang
+    name: Include buluma.erlang
