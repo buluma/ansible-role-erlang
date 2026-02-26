@@ -5,4 +5,4 @@
 repository:
   description: Install and configure erlang on your systems.
   homepage: https://buluma.github.io/
-  topics: erlang, ansible, molecule, tox, playbook
+  topics: erlang, ansible, molecule, playbook
