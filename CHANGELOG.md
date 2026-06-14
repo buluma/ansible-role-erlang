@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-erlang/tree/HEAD)
+## [26.6.0](https://github.com/buluma/ansible-role-erlang/tree/26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.9.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.9.0...26.6.0)
 
 **Closed issues:**
 
@@ -11,6 +11,9 @@
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 26.1.1 to 26.2.0 [\#23](https://github.com/buluma/ansible-role-erlang/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 4 to 6 [\#22](https://github.com/buluma/ansible-role-erlang/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 24.2.0 to 24.6.17 [\#21](https://github.com/buluma/ansible-role-erlang/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump dependabot/fetch-metadata from 1 to 2 [\#20](https://github.com/buluma/ansible-role-erlang/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#17](https://github.com/buluma/ansible-role-erlang/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#16](https://github.com/buluma/ansible-role-erlang/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -23,6 +26,7 @@
 **Merged pull requests:**
 
 - Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#14](https://github.com/buluma/ansible-role-erlang/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#13](https://github.com/buluma/ansible-role-erlang/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.8.0](https://github.com/buluma/ansible-role-erlang/tree/0.8.0) (2024-01-05)
 
@@ -30,7 +34,6 @@
 
 **Merged pull requests:**
 
-- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#13](https://github.com/buluma/ansible-role-erlang/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3 to 4 [\#11](https://github.com/buluma/ansible-role-erlang/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#10](https://github.com/buluma/ansible-role-erlang/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
 
