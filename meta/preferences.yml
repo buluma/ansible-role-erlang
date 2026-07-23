@@ -4,7 +4,8 @@
 platforms:
   - name: EL
     versions:
-      - "10"
+      # Excludes 10: EPEL10 doesn't package erlang yet (it's new and still
+      # catching up on packages EPEL9 has had for years).
       - "9"
   - name: Debian
     versions:
