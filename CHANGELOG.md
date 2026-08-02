@@ -31,10 +31,6 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.8.0...0.9.0)
 
-**Implemented enhancements:**
-
-- Testing all distros [\#9](https://github.com/buluma/ansible-role-erlang/pull/9) ([buluma](https://github.com/buluma))
-
 **Merged pull requests:**
 
 - Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#14](https://github.com/buluma/ansible-role-erlang/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -52,6 +48,10 @@
 ## [0.7.0](https://github.com/buluma/ansible-role-erlang/tree/0.7.0) (2024-01-04)
 
 [Full Changelog](https://github.com/buluma/ansible-role-erlang/compare/0.6.27...0.7.0)
+
+**Implemented enhancements:**
+
+- Testing all distros [\#9](https://github.com/buluma/ansible-role-erlang/pull/9) ([buluma](https://github.com/buluma))
 
 **Closed issues:**
 
